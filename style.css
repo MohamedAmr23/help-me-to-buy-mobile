@@ -1,0 +1,32 @@
+body{
+  
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 100px;
+    list-style: none;
+}
+ul li{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 250px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 29;
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    background-color: black;
+    transition: .4s;
+}
+ul li:hover{
+    transform: scale(1.1);
+}
+
+.content,.btn1,.btn2,.btn3{
+    text-align: center;
+    
+}
